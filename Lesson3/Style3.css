@@ -1,0 +1,49 @@
+.ones{
+    background: white;
+    height: 1000px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main{
+    background:seashell;
+    width: 300px;
+    height: 400px;
+    border:2px solid black;
+    margin-top: 100px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    border: solid black;
+    padding: 10px;
+    border-radius:50%;
+    background: seashell;
+    margin-bottom: 40px;
+    position: relative;
+    top: -15%;
+}
+
+.fa-desktop{
+    font-size: 60px;
+    color: burlywood;
+}
+.fa-life-ring{
+    font-size: 60px;
+    color: burlywood;
+}
+.fa-martini-glass{
+    font-size: 60px;
+    color: burlywood;
+}
+.give{justify-content:flex-end;
+    align-content: center;
+    border: 2px solid black;
+}
