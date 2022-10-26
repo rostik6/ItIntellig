@@ -1,0 +1,30 @@
+.A{height: 150px;
+    width:100%;
+    background: blue;
+    text-align: center;
+}
+.B{height: 400px;
+    width: 1200px;
+    background:yellow;
+    text-align: center;
+}
+.C{height:400px;
+    width: 500px;
+    background: red;
+    text-align: center;
+}
+.BC{display: flex;
+}
+@media screen and ( min-width: 0) and (max-width: 972px)
+{
+    .Box{
+        display: flex;
+        flex-direction:column;
+    }
+    .BC{flex-direction: column;
+    width:100%
+    }
+.C{
+    width: 100%;
+}
+}
